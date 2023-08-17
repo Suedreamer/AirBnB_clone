@@ -1,0 +1,24 @@
+body {
+    overflow-y: auto;
+}
+.places h1 {
+    font-size: 30px;
+}
+.places article {
+    width: 390px;
+    margin: 8px;
+    padding: 20px;
+    border: 1px solid #FF5A5F;
+    text-align: center;
+    border-radius: 4px;
+    float: left;
+}
+.places article.a-last {
+    position: relative;
+    left: 25%;
+    bottom: 12%;
+}
+.places article h2 {
+    font-size: 30px;
+    text-align: center;
+}
